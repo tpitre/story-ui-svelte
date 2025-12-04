@@ -1,0 +1,14 @@
+{
+  "storyId": "warning-alert",
+  "title": "Warning Alert",
+  "versions": [
+    {
+      "id": "91ba05c67e1f1c5a",
+      "timestamp": 1764735282601,
+      "prompt": "Create a simple warning alert using the Flowbite Alert component",
+      "code": "import type { Meta, StoryObj } from '@storybook/svelte';\nimport { Alert } from 'flowbite-svelte';\n\nconst meta: Meta<Alert> = {\n  title: 'Generated/Warning Alert',\n  component: Alert,\n  tags: ['autodocs'],\n  parameters: { layout: 'centered' },\n  argTypes: {\n    color: {\n      control: 'select',\n      options: ['primary', 'blue', 'red', 'green', 'yellow', 'indigo', 'purple', 'pink', 'dark'],\n    },\n  },\n};\n\nexport default meta;\ntype Story = StoryObj<typeof meta>;\n\nexport const Warning: Story = {\n  args: {\n    color: 'yellow',\n    children: 'Warning! Please review your information before submitting.',\n  },\n};\n\nexport const Danger: Story = {\n  args: {\n    color: 'red',\n    children: 'Error! Something went wrong. Please try again.',\n  },\n};\n\nexport const Success: Story = {\n  args: {\n    color: 'green',\n    children: 'Success! Your changes have been saved.',\n  },\n};\n\nexport const Info: Story = {\n  args: {\n    color: 'blue',\n    children: 'Information: This is an informational message.',\n  },\n};",
+      "fileName": "warning-alert-565ee132.stories.tsx"
+    }
+  ],
+  "currentVersionId": "91ba05c67e1f1c5a"
+}

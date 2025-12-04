@@ -1,0 +1,14 @@
+{
+  "storyId": "primary-button",
+  "title": "Primary Button",
+  "versions": [
+    {
+      "id": "32f2e12abbd1becb",
+      "timestamp": 1764704415648,
+      "prompt": "Create a simple Flowbite Svelte button with primary color",
+      "code": "import type { Meta, StoryObj } from '@storybook/svelte';\nimport Button from 'flowbite-svelte/dist/buttons/Button.svelte';\n\nconst meta: Meta<Button> = {\n  title: 'Generated/Primary Button',\n  component: Button,\n  tags: ['autodocs'],\n  parameters: { layout: 'centered' },\n  argTypes: {\n    color: {\n      control: 'select',\n      options: ['primary', 'alternative', 'dark', 'light', 'green', 'red', 'yellow', 'purple'],\n    },\n    size: {\n      control: 'select',\n      options: ['xs', 'sm', 'md', 'lg', 'xl'],\n    },\n  },\n};\n\nexport default meta;\ntype Story = StoryObj<typeof meta>;\n\nexport const Primary: Story = {\n  args: {\n    color: 'primary',\n    size: 'md',\n  },\n  render: (args) => ({\n    Component: Button,\n    props: args,\n    slot: 'Click me',\n  }),\n};\n\nexport const Large: Story = {\n  args: {\n    color: 'primary',\n    size: 'lg',\n  },\n  render: (args) => ({\n    Component: Button,\n    props: args,\n    slot: 'Large Primary Button',\n  }),\n};\n\nexport const Small: Story = {\n  args: {\n    color: 'primary',\n    size: 'sm',\n  },\n  render: (args) => ({\n    Component: Button,\n    props: args,\n    slot: 'Small Primary Button',\n  }),\n};",
+      "fileName": "primary-button-7a558f16.stories.tsx"
+    }
+  ],
+  "currentVersionId": "32f2e12abbd1becb"
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Primary Button",
+    "fileName": "primary-button-7a558f16.stories.tsx",
+    "storyId": "story-7a558f16",
+    "hash": "7a558f16",
+    "createdAt": "2025-12-02T19:40:15.647Z",
+    "updatedAt": "2025-12-02T19:40:15.647Z",
+    "prompt": "Create a simple Flowbite Svelte button with primary color"
+  },
+  {
+    "title": "Product Card with Title and Price",
+    "fileName": "product-card-with-title-and-price-9fc8d9db.stories.tsx",
+    "storyId": "story-9fc8d9db",
+    "hash": "9fc8d9db",
+    "createdAt": "2025-12-03T04:02:34.227Z",
+    "updatedAt": "2025-12-03T04:02:34.227Z",
+    "prompt": "Create a simple product card with Flowbite Svelte showing a product with title, description and price"
+  },
+  {
+    "title": "Warning Alert",
+    "fileName": "warning-alert-565ee132.stories.tsx",
+    "storyId": "story-565ee132",
+    "hash": "565ee132",
+    "createdAt": "2025-12-03T04:14:42.601Z",
+    "updatedAt": "2025-12-03T04:14:42.601Z",
+    "prompt": "Create a simple warning alert using the Flowbite Alert component"
+  },
+  {
+    "title": "Blue Info Badge",
+    "fileName": "blue-info-badge-5b15c9f6.stories.tsx",
+    "storyId": "story-5b15c9f6",
+    "hash": "5b15c9f6",
+    "createdAt": "2025-12-03T04:20:09.641Z",
+    "updatedAt": "2025-12-03T04:20:09.641Z",
+    "prompt": "Create a simple info badge using the Flowbite Badge component with blue color and some text"
+  }
+]
