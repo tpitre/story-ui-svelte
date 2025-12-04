@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json",
-    "storybook": "storybook dev -p 6104",
+    "storybook": "storybook dev",
     "build-storybook": "storybook build",
     "story-ui": "npx story-ui start --port 4104"
   },
@@ -34,6 +34,7 @@
     "vitest": "^4.0.15"
   },
   "dependencies": {
+    "@tpitre/story-ui": "^3.7.0",
     "autoprefixer": "^10.4.22",
     "flowbite": "^4.0.1",
     "flowbite-svelte": "^1.29.1",
