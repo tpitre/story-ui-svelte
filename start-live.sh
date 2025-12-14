@@ -6,6 +6,16 @@
 echo "🚀 Starting Story UI Live Environment..."
 echo ""
 
+# Clean up any existing generated stories to prevent duplicate story ID errors
+# This is necessary because stories persist between deployments and old stories
+# with generic titles like 'Generated/Alert' conflict with newly generated ones
+GENERATED_DIR="src/stories/generated"
+if [ -d "$GENERATED_DIR" ]; then
+    echo "🧹 Cleaning generated stories folder..."
+    rm -f "$GENERATED_DIR"/*.stories.svelte
+    echo "✅ Generated stories folder cleaned"
+fi
+
 # Configuration
 STORYBOOK_PORT=6006
 MCP_PORT=${PORT:-4001}
