@@ -1,12 +1,12 @@
 [
   {
     "title": "Primary Button",
-    "fileName": "primary-button-7a558f16.stories.tsx",
-    "storyId": "story-7a558f16",
-    "hash": "7a558f16",
+    "fileName": "primary-button-d41d593c.stories.ts",
+    "storyId": "story-d41d593c",
+    "hash": "d41d593c",
     "createdAt": "2025-12-02T19:40:15.647Z",
-    "updatedAt": "2025-12-02T19:40:15.647Z",
-    "prompt": "Create a simple Flowbite Svelte button with primary color"
+    "updatedAt": "2025-12-13T23:36:15.035Z",
+    "prompt": "Make the button larger and add an icon"
   },
   {
     "title": "Product Card with Title and Price",

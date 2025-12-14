@@ -1,0 +1,22 @@
+{
+  "storyId": "primary-button-d41d593c.stories.ts",
+  "title": "Primary Button D41d593c.Stories.Ts",
+  "versions": [
+    {
+      "id": "e4cec8b3da067f44",
+      "timestamp": 1765668932977,
+      "prompt": "Simple Flowbite button with primary style",
+      "code": "import type { Meta, StoryObj } from '@storybook/svelte';\nimport { Button } from 'flowbite-svelte';\n\nconst meta: Meta<Button> = {\n  title: 'Generated/Primary Button',\n  component: Button,\n  tags: ['autodocs'],\n  parameters: { layout: 'centered' },\n  argTypes: {\n    color: {\n      control: 'select',\n      options: ['primary', 'blue', 'alternative', 'dark', 'light', 'green', 'red', 'yellow', 'purple'],\n    },\n    size: {\n      control: 'select',\n      options: ['xs', 'sm', 'md', 'lg', 'xl'],\n    },\n  },\n};\n\nexport default meta;\ntype Story = StoryObj<typeof meta>;\n\nexport const Primary: Story = {\n  args: {\n    color: 'primary',\n  },\n};\n\nexport const Blue: Story = {\n  args: {\n    color: 'blue',\n  },\n};\n\nexport const Alternative: Story = {\n  args: {\n    color: 'alternative',\n  },\n};\n\nexport const Dark: Story = {\n  args: {\n    color: 'dark',\n  },\n};\n\nexport const Light: Story = {\n  args: {\n    color: 'light',\n  },\n};\n\nexport const Green: Story = {\n  args: {\n    color: 'green',\n  },\n};\n\nexport const Red: Story = {\n  args: {\n    color: 'red',\n  },\n};\n\nexport const SmallSize: Story = {\n  args: {\n    color: 'primary',\n    size: 'sm',\n  },\n};\n\nexport const LargeSize: Story = {\n  args: {\n    color: 'primary',\n    size: 'lg',\n  },\n};\n\nexport const Disabled: Story = {\n  args: {\n    color: 'primary',\n    disabled: true,\n  },\n};",
+      "fileName": "primary-button-d41d593c.stories.ts"
+    },
+    {
+      "id": "abb3754436afcde4",
+      "timestamp": 1765668975036,
+      "prompt": "Make the button larger and add an icon",
+      "code": "import type { Meta, StoryObj } from '@storybook/svelte';\nimport { Button } from 'flowbite-svelte';\nimport { Icon } from 'flowbite-svelte-icons';\n\nconst meta: Meta<Button> = {\n  title: 'Generated/Primary Button',\n  component: Button,\n  tags: ['autodocs'],\n  parameters: { layout: 'centered' },\n  argTypes: {\n    color: {\n      control: 'select',\n      options: ['primary', 'blue', 'alternative', 'dark', 'light', 'green', 'red', 'yellow', 'purple'],\n    },\n    size: {\n      control: 'select',\n      options: ['xs', 'sm', 'md', 'lg', 'xl'],\n    },\n  },\n};\n\nexport default meta;\ntype Story = StoryObj<typeof meta>;\n\nexport const Primary: Story = {\n  args: {\n    color: 'primary',\n    size: 'xl',\n  },\n};\n\nexport const Blue: Story = {\n  args: {\n    color: 'blue',\n    size: 'xl',\n  },\n};\n\nexport const Alternative: Story = {\n  args: {\n    color: 'alternative',\n    size: 'xl',\n  },\n};\n\nexport const Dark: Story = {\n  args: {\n    color: 'dark',\n    size: 'xl',\n  },\n};\n\nexport const Light: Story = {\n  args: {\n    color: 'light',\n    size: 'xl',\n  },\n};\n\nexport const Green: Story = {\n  args: {\n    color: 'green',\n    size: 'xl',\n  },\n};\n\nexport const Red: Story = {\n  args: {\n    color: 'red',\n    size: 'xl',\n  },\n};\n\nexport const SmallSize: Story = {\n  args: {\n    color: 'primary',\n    size: 'sm',\n  },\n};\n\nexport const LargeSize: Story = {\n  args: {\n    color: 'primary',\n    size: 'lg',\n  },\n};\n\nexport const Disabled: Story = {\n  args: {\n    color: 'primary',\n    size: 'xl',\n    disabled: true,\n  },\n};",
+      "fileName": "primary-button-d41d593c.stories.ts",
+      "parentId": "e4cec8b3da067f44"
+    }
+  ],
+  "currentVersionId": "abb3754436afcde4"
+}
