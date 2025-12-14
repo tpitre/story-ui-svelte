@@ -12,7 +12,7 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Cache buster - change this to force a fresh npm install
-ARG CACHE_BUST=7f70930
+ARG CACHE_BUST=409a154
 
 # Copy package.json only (not package-lock.json to avoid platform-specific rollup issues)
 COPY package.json ./
