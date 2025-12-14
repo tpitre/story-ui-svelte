@@ -1,7 +1,7 @@
 {
   "name": "svelte-flowbite",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -35,7 +35,7 @@
     "vitest": "^4.0.15"
   },
   "dependencies": {
-    "@tpitre/story-ui": "github:southleft/story-ui#v3.10.7-svelte-fix",
+    "@tpitre/story-ui": "github:southleft/story-ui#a2ed93e",
     "autoprefixer": "^10.4.22",
     "flowbite": "^4.0.1",
     "flowbite-svelte": "^1.29.1",
