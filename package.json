@@ -1,7 +1,7 @@
 {
   "name": "svelte-flowbite",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,7 +10,8 @@
     "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json",
     "storybook": "storybook dev",
     "build-storybook": "storybook build",
-    "story-ui": "npx story-ui start --port 4104"
+    "story-ui": "npx story-ui start --port 4104",
+    "preinstall": "npm cache clean --force 2>/dev/null || true"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^4.1.3",
