@@ -34,7 +34,7 @@
     "vitest": "^4.0.15"
   },
   "dependencies": {
-    "@tpitre/story-ui": "github:southleft/story-ui#da96c79",
+    "@tpitre/story-ui": "github:southleft/story-ui#v3.10.7-svelte-fix",
     "autoprefixer": "^10.4.22",
     "flowbite": "^4.0.1",
     "flowbite-svelte": "^1.29.1",
