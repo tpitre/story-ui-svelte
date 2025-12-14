@@ -1,0 +1,14 @@
+{
+  "storyId": "primary-button-with-click-action-6986a300.stories.svelte",
+  "title": "Primary Button With Click Action 6986a300.Stories.Svelte",
+  "versions": [
+    {
+      "id": "ec2e31ceb26df566",
+      "timestamp": 1765680991557,
+      "prompt": "Create a primary button with click action",
+      "code": "svelte\n<script context=\"module\">\n  import { Button } from 'flowbite-svelte';\n\n  export const meta = {\n    title: 'Generated/Primary Button with Click Action',\n    component: Button,\n    tags: ['autodocs'],\n  };\n  \n  export default meta;\n</script>\n\n<script>\n  import { Story, Template } from '@storybook/addon-svelte-csf';\n  \n  let clickCount = 0;\n  \n  function handleClick() {\n    clickCount += 1;\n    alert(`Button clicked ${clickCount} time(s)!`);\n  }\n</script>\n\n<Template let:args>\n  <Button {...args} color=\"primary\">Click Me</Button>\n</Template>\n\n<Story name=\"Default\">\n  <Button color=\"primary\">Primary Button</Button>\n</Story>\n\n<Story name=\"With Click Action\">\n  <Button color=\"primary\" on:click={handleClick}>\n    Click Me (Count: {clickCount})\n  </Button>\n</Story>\n\n<Story name=\"Primary Variants\">\n  <div class=\"flex gap-2 flex-wrap\">\n    <Button color=\"primary\">Primary</Button>\n    <Button color=\"primary\" outline>Primary Outline</Button>\n    <Button color=\"primary\" pill>Primary Pill</Button>\n  </div>\n</Story>\n\n<Story name=\"Primary Sizes\">\n  <div class=\"flex gap-2 items-center flex-wrap\">\n    <Button color=\"primary\" size=\"xs\">Extra Small</Button>\n    <Button color=\"primary\" size=\"sm\">Small</Button>\n    <Button color=\"primary\" size=\"md\">Medium</Button>\n    <Button color=\"primary\" size=\"lg\">Large</Button>\n    <Button color=\"primary\" size=\"xl\">Extra Large</Button>\n  </div>\n</Story>\n\n<Story name=\"Interactive Example\">\n  <div class=\"space-y-4\">\n    <Button color=\"primary\" on:click={() => alert('Action executed!')}>\n      Execute Action\n    </Button>\n    <Button color=\"primary\" on:click={() => console.log('Logged to console')}>\n      Log to Console\n    </Button>\n  </div>\n</Story>",
+      "fileName": "primary-button-with-click-action-6986a300.stories.svelte"
+    }
+  ],
+  "currentVersionId": "ec2e31ceb26df566"
+}

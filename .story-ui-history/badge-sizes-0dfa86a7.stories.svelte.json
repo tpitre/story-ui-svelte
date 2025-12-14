@@ -1,0 +1,14 @@
+{
+  "storyId": "badge-sizes-0dfa86a7.stories.svelte",
+  "title": "Badge Sizes 0dfa86a7.Stories.Svelte",
+  "versions": [
+    {
+      "id": "55385e2931431355",
+      "timestamp": 1765681101010,
+      "prompt": "Create a badge with different sizes",
+      "code": "svelte\n<script context=\"module\">\n  import { Badge } from 'flowbite-svelte';\n\n  export const meta = {\n    title: 'Generated/Badge Sizes',\n    component: Badge,\n    tags: ['autodocs'],\n  };\n\n  export default meta;\n</script>\n\n<script>\n  import { Story, Template } from '@storybook/addon-svelte-csf';\n</script>\n\n<Template let:args>\n  <Badge {...args}>Badge</Badge>\n</Template>\n\n<Story name=\"Default\">\n  <Badge>Default Badge</Badge>\n</Story>\n\n<Story name=\"Sizes\">\n  <div class=\"flex gap-2 items-center flex-wrap\">\n    <Badge size=\"xs\">Extra Small</Badge>\n    <Badge size=\"sm\">Small</Badge>\n    <Badge>Medium</Badge>\n    <Badge size=\"lg\">Large</Badge>\n    <Badge size=\"xl\">Extra Large</Badge>\n  </div>\n</Story>\n\n<Story name=\"Colors with Different Sizes\">\n  <div class=\"flex flex-col gap-3\">\n    <div class=\"flex gap-2 items-center flex-wrap\">\n      <Badge color=\"blue\" size=\"xs\">Blue XS</Badge>\n      <Badge color=\"blue\" size=\"sm\">Blue SM</Badge>\n      <Badge color=\"blue\">Blue MD</Badge>\n      <Badge color=\"blue\" size=\"lg\">Blue LG</Badge>\n    </div>\n    <div class=\"flex gap-2 items-center flex-wrap\">\n      <Badge color=\"green\" size=\"xs\">Green XS</Badge>\n      <Badge color=\"green\" size=\"sm\">Green SM</Badge>\n      <Badge color=\"green\">Green MD</Badge>\n      <Badge color=\"green\" size=\"lg\">Green LG</Badge>\n    </div>\n    <div class=\"flex gap-2 items-center flex-wrap\">\n      <Badge color=\"red\" size=\"xs\">Red XS</Badge>\n      <Badge color=\"red\" size=\"sm\">Red SM</Badge>\n      <Badge color=\"red\">Red MD</Badge>\n      <Badge color=\"red\" size=\"lg\">Red LG</Badge>\n    </div>\n  </div>\n</Story>\n\n<Story name=\"Extra Small\">\n  <Badge size=\"xs\">XS Badge</Badge>\n</Story>\n\n<Story name=\"Small\">\n  <Badge size=\"sm\">Small Badge</Badge>\n</Story>\n\n<Story name=\"Medium\">\n  <Badge>Medium Badge</Badge>\n</Story>\n\n<Story name=\"Large\">\n  <Badge size=\"lg\">Large Badge</Badge>\n</Story>\n\n<Story name=\"Extra Large\">\n  <Badge size=\"xl\">Extra Large Badge</Badge>\n</Story>",
+      "fileName": "badge-sizes-0dfa86a7.stories.svelte"
+    }
+  ],
+  "currentVersionId": "55385e2931431355"
+}

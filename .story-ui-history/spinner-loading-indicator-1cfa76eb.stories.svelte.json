@@ -1,0 +1,14 @@
+{
+  "storyId": "spinner-loading-indicator-1cfa76eb.stories.svelte",
+  "title": "Spinner Loading Indicator 1cfa76eb.Stories.Svelte",
+  "versions": [
+    {
+      "id": "c1f351bac86bdfc7",
+      "timestamp": 1765681124681,
+      "prompt": "Create a spinner loading indicator",
+      "code": "svelte\n<script context=\"module\">\n  import { Spinner } from 'flowbite-svelte';\n\n  export const meta = {\n    title: 'Generated/Spinner Loading Indicator',\n    component: Spinner,\n    tags: ['autodocs'],\n  };\n  \n  export default meta;\n</script>\n\n<script>\n  import { Story, Template } from '@storybook/addon-svelte-csf';\n</script>\n\n<Template let:args>\n  <Spinner {...args} />\n</Template>\n\n<Story name=\"Default\">\n  <Spinner />\n</Story>\n\n<Story name=\"Colors\">\n  <div class=\"flex gap-4 flex-wrap\">\n    <Spinner color=\"blue\" />\n    <Spinner color=\"gray\" />\n    <Spinner color=\"green\" />\n    <Spinner color=\"red\" />\n    <Spinner color=\"yellow\" />\n    <Spinner color=\"pink\" />\n    <Spinner color=\"purple\" />\n  </div>\n</Story>\n\n<Story name=\"Sizes\">\n  <div class=\"flex gap-4 items-center flex-wrap\">\n    <Spinner size=\"4\" />\n    <Spinner size=\"6\" />\n    <Spinner size=\"8\" />\n    <Spinner size=\"10\" />\n    <Spinner size=\"12\" />\n  </div>\n</Story>\n\n<Story name=\"With Text\">\n  <div class=\"flex items-center gap-2\">\n    <Spinner size=\"6\" />\n    <span class=\"text-gray-700\">Loading...</span>\n  </div>\n</Story>\n\n<Story name=\"Loading States\">\n  <div class=\"space-y-6\">\n    <div class=\"flex items-center justify-center p-8 bg-gray-100 rounded-lg\">\n      <div class=\"text-center\">\n        <Spinner size=\"8\" color=\"blue\" />\n        <p class=\"mt-4 text-gray-700\">Processing your request...</p>\n      </div>\n    </div>\n    <div class=\"flex items-center justify-center p-8 bg-gray-100 rounded-lg\">\n      <div class=\"text-center\">\n        <Spinner size=\"10\" color=\"green\" />\n        <p class=\"mt-4 text-gray-700\">Uploading files...</p>\n      </div>\n    </div>\n    <div class=\"flex items-center justify-center p-8 bg-gray-100 rounded-lg\">\n      <div class=\"text-center\">\n        <Spinner size=\"6\" color=\"purple\" />\n        <p class=\"mt-4 text-gray-700\">Please wait...</p>\n      </div>\n    </div>\n  </div>\n</Story>",
+      "fileName": "spinner-loading-indicator-1cfa76eb.stories.svelte"
+    }
+  ],
+  "currentVersionId": "c1f351bac86bdfc7"
+}

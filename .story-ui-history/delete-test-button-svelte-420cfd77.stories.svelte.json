@@ -1,0 +1,14 @@
+{
+  "storyId": "delete-test-button-svelte-420cfd77.stories.svelte",
+  "title": "Delete Test Button Svelte 420cfd77.Stories.Svelte",
+  "versions": [
+    {
+      "id": "803dca4962d61664",
+      "timestamp": 1765682599323,
+      "prompt": "Create a button for delete test svelte",
+      "code": "svelte\n<script context=\"module\">\n  import { Button } from 'flowbite-svelte';\n\n  export const meta = {\n    title: 'Generated/Delete Test Button - Svelte',\n    component: Button,\n    tags: ['autodocs'],\n  };\n  \n  export default meta;\n</script>\n\n<script>\n  import { Story, Template } from '@storybook/addon-svelte-csf';\n</script>\n\n<Template let:args>\n  <Button {...args}>Delete</Button>\n</Template>\n\n<Story name=\"Default\">\n  <Button color=\"red\">Delete</Button>\n</Story>\n\n<Story name=\"With Icon\">\n  <Button color=\"red\">\n    <svg class=\"w-4 h-4 mr-2\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16\"></path>\n    </svg>\n    Delete\n  </Button>\n</Story>\n\n<Story name=\"Sizes\">\n  <div class=\"flex gap-2 items-center flex-wrap\">\n    <Button color=\"red\" size=\"xs\">Delete</Button>\n    <Button color=\"red\" size=\"sm\">Delete</Button>\n    <Button color=\"red\" size=\"md\">Delete</Button>\n    <Button color=\"red\" size=\"lg\">Delete</Button>\n    <Button color=\"red\" size=\"xl\">Delete</Button>\n  </div>\n</Story>\n\n<Story name=\"Outline\">\n  <Button color=\"red\" outline>Delete</Button>\n</Story>\n\n<Story name=\"Disabled\">\n  <Button color=\"red\" disabled>Delete</Button>\n</Story>\n\n<Story name=\"Variants\">\n  <div class=\"flex gap-2 flex-wrap\">\n    <Button color=\"red\">Delete</Button>\n    <Button color=\"red\" outline>Delete</Button>\n    <Button color=\"red\" gradient>Delete</Button>\n  </div>\n</Story>",
+      "fileName": "delete-test-button-svelte-420cfd77.stories.svelte"
+    }
+  ],
+  "currentVersionId": "803dca4962d61664"
+}

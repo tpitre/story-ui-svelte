@@ -34,5 +34,104 @@
     "createdAt": "2025-12-03T04:20:09.641Z",
     "updatedAt": "2025-12-03T04:20:09.641Z",
     "prompt": "Create a simple info badge using the Flowbite Badge component with blue color and some text"
+  },
+  {
+    "title": "Primary Button with Click Action",
+    "fileName": "primary-button-with-click-action-6986a300.stories.svelte",
+    "storyId": "story-6986a300",
+    "hash": "6986a300",
+    "createdAt": "2025-12-14T02:41:41.669Z",
+    "updatedAt": "2025-12-14T02:56:31.555Z",
+    "prompt": "Create a primary button with click action"
+  },
+  {
+    "title": "Card with Header and Content",
+    "fileName": "card-with-header-and-content-6eab5562.stories.svelte",
+    "storyId": "story-6eab5562",
+    "hash": "6eab5562",
+    "createdAt": "2025-12-14T02:57:17.444Z",
+    "updatedAt": "2025-12-14T02:57:17.444Z",
+    "prompt": "Create a card with header and content"
+  },
+  {
+    "title": "Alert Component - Color Variants",
+    "fileName": "alert-component-color-variants-e5323d88.stories.svelte",
+    "storyId": "story-e5323d88",
+    "hash": "e5323d88",
+    "createdAt": "2025-12-14T02:57:49.394Z",
+    "updatedAt": "2025-12-14T02:57:49.394Z",
+    "prompt": "Create an alert component with different colors"
+  },
+  {
+    "title": "Badge Sizes",
+    "fileName": "badge-sizes-0dfa86a7.stories.svelte",
+    "storyId": "story-0dfa86a7",
+    "hash": "0dfa86a7",
+    "createdAt": "2025-12-14T02:58:21.009Z",
+    "updatedAt": "2025-12-14T02:58:21.009Z",
+    "prompt": "Create a badge with different sizes"
+  },
+  {
+    "title": "Spinner Loading Indicator",
+    "fileName": "spinner-loading-indicator-1cfa76eb.stories.svelte",
+    "storyId": "story-1cfa76eb",
+    "hash": "1cfa76eb",
+    "createdAt": "2025-12-14T02:58:44.681Z",
+    "updatedAt": "2025-12-14T02:58:44.681Z",
+    "prompt": "Create a spinner loading indicator"
+  },
+  {
+    "title": "Tooltip on Hover",
+    "fileName": "tooltip-on-hover-4827ed47.stories.svelte",
+    "storyId": "story-4827ed47",
+    "hash": "4827ed47",
+    "createdAt": "2025-12-14T02:59:24.246Z",
+    "updatedAt": "2025-12-14T02:59:24.246Z",
+    "prompt": "Create a tooltip that appears on hover"
+  },
+  {
+    "title": "Modal Dialog",
+    "fileName": "modal-dialog-2e596893.stories.svelte",
+    "storyId": "story-2e596893",
+    "hash": "2e596893",
+    "createdAt": "2025-12-14T03:00:10.899Z",
+    "updatedAt": "2025-12-14T03:00:10.899Z",
+    "prompt": "Create a modal dialog"
+  },
+  {
+    "title": "Text Input with Validation",
+    "fileName": "text-input-with-validation-52fb83d8.stories.svelte",
+    "storyId": "story-52fb83d8",
+    "hash": "52fb83d8",
+    "createdAt": "2025-12-14T03:01:10.803Z",
+    "updatedAt": "2025-12-14T03:01:10.803Z",
+    "prompt": "Create a text input with validation"
+  },
+  {
+    "title": "Checkbox Group",
+    "fileName": "checkbox-group-d49a5a44.stories.svelte",
+    "storyId": "story-d49a5a44",
+    "hash": "d49a5a44",
+    "createdAt": "2025-12-14T03:02:09.226Z",
+    "updatedAt": "2025-12-14T03:02:09.226Z",
+    "prompt": "Create a checkbox group"
+  },
+  {
+    "title": "Dropdown Select Menu",
+    "fileName": "dropdown-select-menu-85c738e5.stories.svelte",
+    "storyId": "story-85c738e5",
+    "hash": "85c738e5",
+    "createdAt": "2025-12-14T03:02:41.624Z",
+    "updatedAt": "2025-12-14T03:02:41.624Z",
+    "prompt": "Create a dropdown select menu"
+  },
+  {
+    "title": "Delete Test Button - Svelte",
+    "fileName": "delete-test-button-svelte-420cfd77.stories.svelte",
+    "storyId": "story-420cfd77",
+    "hash": "420cfd77",
+    "createdAt": "2025-12-14T03:23:19.322Z",
+    "updatedAt": "2025-12-14T03:23:19.322Z",
+    "prompt": "Create a button for delete test svelte"
   }
 ]

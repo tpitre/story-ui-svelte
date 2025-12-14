@@ -1,0 +1,14 @@
+{
+  "storyId": "primary-button-with-click-action-7ade24ba.stories.ts",
+  "title": "Primary Button With Click Action 7ade24ba.Stories.Ts",
+  "versions": [
+    {
+      "id": "3aec217f51dc7962",
+      "timestamp": 1765680101669,
+      "prompt": "Create a primary button with click action",
+      "code": "import type { Meta, StoryObj } from '@storybook/svelte';\nimport { Button } from 'flowbite-svelte';\n\nconst meta: Meta<Button> = {\n  title: 'Generated/Primary Button with Click Action',\n  component: Button,\n  tags: ['autodocs'],\n  parameters: { layout: 'centered' },\n  argTypes: {\n    color: {\n      control: 'select',\n      options: ['primary', 'blue', 'alternative', 'dark', 'light', 'green', 'red', 'yellow', 'purple'],\n    },\n    size: {\n      control: 'select',\n      options: ['xs', 'sm', 'md', 'lg', 'xl'],\n    },\n  },\n};\n\nexport default meta;\ntype Story = StoryObj<typeof meta>;\n\nexport const Primary: Story = {\n  args: {\n    color: 'primary',\n    size: 'md',\n  },\n};\n\nexport const WithClickAction: Story = {\n  args: {\n    color: 'primary',\n    size: 'md',\n    onclick: () => {\n      alert('Button clicked!');\n    },\n  },\n};\n\nexport const Large: Story = {\n  args: {\n    color: 'primary',\n    size: 'lg',\n    onclick: () => {\n      console.log('Large button clicked');\n    },\n  },\n};\n\nexport const Small: Story = {\n  args: {\n    color: 'primary',\n    size: 'sm',\n    onclick: () => {\n      console.log('Small button clicked');\n    },\n  },\n};",
+      "fileName": "primary-button-with-click-action-7ade24ba.stories.ts"
+    }
+  ],
+  "currentVersionId": "3aec217f51dc7962"
+}

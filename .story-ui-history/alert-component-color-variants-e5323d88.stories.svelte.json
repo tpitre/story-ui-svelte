@@ -1,0 +1,14 @@
+{
+  "storyId": "alert-component-color-variants-e5323d88.stories.svelte",
+  "title": "Alert Component Color Variants E5323d88.Stories.Svelte",
+  "versions": [
+    {
+      "id": "6bfd046a76f9d905",
+      "timestamp": 1765681069394,
+      "prompt": "Create an alert component with different colors",
+      "code": "svelte\n<script context=\"module\">\n  import { Alert } from 'flowbite-svelte';\n\n  export const meta = {\n    title: 'Generated/Alert Component - Color Variants',\n    component: Alert,\n    tags: ['autodocs'],\n  };\n\n  export default meta;\n</script>\n\n<script>\n  import { Story, Template } from '@storybook/addon-svelte-csf';\n</script>\n\n<Template let:args>\n  <Alert {...args}>This is an alert message</Alert>\n</Template>\n\n<Story name=\"Default\">\n  <Alert>This is a default alert message</Alert>\n</Story>\n\n<Story name=\"Info\">\n  <Alert color=\"blue\">\n    <span class=\"font-medium\">Info alert!</span> This is an informational message.\n  </Alert>\n</Story>\n\n<Story name=\"Success\">\n  <Alert color=\"green\">\n    <span class=\"font-medium\">Success!</span> Your operation completed successfully.\n  </Alert>\n</Story>\n\n<Story name=\"Warning\">\n  <Alert color=\"yellow\">\n    <span class=\"font-medium\">Warning!</span> Please review this important information.\n  </Alert>\n</Story>\n\n<Story name=\"Error\">\n  <Alert color=\"red\">\n    <span class=\"font-medium\">Error!</span> Something went wrong. Please try again.\n  </Alert>\n</Story>\n\n<Story name=\"Dark\">\n  <Alert color=\"dark\">\n    <span class=\"font-medium\">Dark alert!</span> This is a dark-themed alert.\n  </Alert>\n</Story>\n\n<Story name=\"All Colors\">\n  <div class=\"space-y-4\">\n    <Alert color=\"blue\">\n      <span class=\"font-medium\">Info:</span> Informational alert message\n    </Alert>\n    <Alert color=\"green\">\n      <span class=\"font-medium\">Success:</span> Operation completed successfully\n    </Alert>\n    <Alert color=\"yellow\">\n      <span class=\"font-medium\">Warning:</span> Please proceed with caution\n    </Alert>\n    <Alert color=\"red\">\n      <span class=\"font-medium\">Error:</span> An error has occurred\n    </Alert>\n    <Alert color=\"dark\">\n      <span class=\"font-medium\">Dark:</span> Dark themed alert\n    </Alert>\n  </div>\n</Story>\n\n<Story name=\"With Border\">\n  <div class=\"space-y-4\">\n    <Alert color=\"blue\" border>\n      <span class=\"font-medium\">Info with border</span>\n    </Alert>\n    <Alert color=\"green\" border>\n      <span class=\"font-medium\">Success with border</span>\n    </Alert>\n    <Alert color=\"red\" border>\n      <span class=\"font-medium\">Error with border</span>\n    </Alert>\n  </div>\n</Story>",
+      "fileName": "alert-component-color-variants-e5323d88.stories.svelte"
+    }
+  ],
+  "currentVersionId": "6bfd046a76f9d905"
+}
