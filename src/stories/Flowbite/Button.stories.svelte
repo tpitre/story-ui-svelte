@@ -1,20 +1,13 @@
-<script context="module">
+<script module>
+  import { defineMeta } from '@storybook/addon-svelte-csf';
   import { Button } from 'flowbite-svelte';
 
-  export const meta = {
+  const { Story } = defineMeta({
     title: 'Flowbite/Button',
     component: Button,
     tags: ['autodocs'],
-  };
+  });
 </script>
-
-<script>
-  import { Story, Template } from '@storybook/addon-svelte-csf';
-</script>
-
-<Template let:args>
-  <Button {...args}>Button</Button>
-</Template>
 
 <Story name="Primary">
   <Button color="primary">Primary</Button>
