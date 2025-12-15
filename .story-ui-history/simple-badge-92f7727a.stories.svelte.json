@@ -1,0 +1,14 @@
+{
+  "storyId": "simple-badge-92f7727a.stories.svelte",
+  "title": "Simple Badge 92f7727a.Stories.Svelte",
+  "versions": [
+    {
+      "id": "eae87537ac0b1c0e",
+      "timestamp": 1765754479916,
+      "prompt": "A simple badge",
+      "code": "<script module>\n  import { defineMeta } from '@storybook/addon-svelte-csf';\n  import { Badge } from 'flowbite-svelte';\n\n  const { Story } = defineMeta({\n    title: 'Generated/Badge',\n  id: 'simple-badge-92f7727a',\n    component: Badge,\n    tags: ['autodocs'],\n  });\n</script>\n\n<Story name=\"Default\" asChild>\n  <Badge>Default</Badge>\n</Story>\n\n<Story name=\"Colors\" asChild>\n  <div class=\"flex gap-2 flex-wrap\">\n    <Badge color=\"blue\">Blue</Badge>\n    <Badge color=\"dark\">Dark</Badge>\n    <Badge color=\"red\">Red</Badge>\n    <Badge color=\"green\">Green</Badge>\n    <Badge color=\"yellow\">Yellow</Badge>\n    <Badge color=\"indigo\">Indigo</Badge>\n    <Badge color=\"purple\">Purple</Badge>\n    <Badge color=\"pink\">Pink</Badge>\n  </div>\n</Story>\n\n<Story name=\"Large\" asChild>\n  <Badge large>Large Badge</Badge>\n</Story>\n\n<Story name=\"With Icon\" asChild>\n  <div class=\"flex gap-2 flex-wrap\">\n    <Badge color=\"blue\">\n      <svg class=\"w-3 h-3 mr-1\" fill=\"currentColor\" viewBox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z\"></path>\n      </svg>\n      New\n    </Badge>\n    <Badge color=\"green\">\n      <svg class=\"w-3 h-3 mr-1\" fill=\"currentColor\" viewBox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path fill-rule=\"evenodd\" d=\"M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z\" clip-rule=\"evenodd\"></path>\n      </svg>\n      Verified\n    </Badge>\n  </div>\n</Story>\n\n<Story name=\"Notification\" asChild>\n  <Badge color=\"red\">3</Badge>\n</Story>",
+      "fileName": "simple-badge-92f7727a.stories.svelte"
+    }
+  ],
+  "currentVersionId": "eae87537ac0b1c0e"
+}

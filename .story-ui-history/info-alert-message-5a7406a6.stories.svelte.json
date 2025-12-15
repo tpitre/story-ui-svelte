@@ -1,0 +1,14 @@
+{
+  "storyId": "info-alert-message-5a7406a6.stories.svelte",
+  "title": "Info Alert Message 5a7406a6.Stories.Svelte",
+  "versions": [
+    {
+      "id": "6afcaeb0f4eebcea",
+      "timestamp": 1765723961578,
+      "prompt": "Create a simple alert with an info message",
+      "code": "<script module>\n  import { defineMeta } from '@storybook/addon-svelte-csf';\n  import { Alert } from 'flowbite-svelte';\n\n  const { Story } = defineMeta({\n    title: 'Generated/Alert',\n    component: Alert,\n    tags: ['autodocs'],\n  });\n</script>\n\n<Story name=\"Info\">\n  <Alert color=\"blue\">This is an informational message.</Alert>\n</Story>\n\n<Story name=\"Success\">\n  <Alert color=\"green\">Your changes have been saved successfully!</Alert>\n</Story>\n\n<Story name=\"Warning\">\n  <Alert color=\"yellow\">Please review the information before proceeding.</Alert>\n</Story>\n\n<Story name=\"Error\">\n  <Alert color=\"red\">An error occurred. Please try again later.</Alert>\n</Story>\n\n<Story name=\"Default\">\n  <Alert>This is a default alert message.</Alert>\n</Story>\n\n<Story name=\"With Border\">\n  <Alert color=\"blue\" border>\n    This is an alert with a border accent.\n  </Alert>\n</Story>\n\n<Story name=\"Multiple Alerts\">\n  <div class=\"space-y-4\">\n    <Alert color=\"blue\">Information: New updates are available.</Alert>\n    <Alert color=\"green\">Success: Profile updated successfully!</Alert>\n    <Alert color=\"yellow\">Warning: Your session will expire soon.</Alert>\n    <Alert color=\"red\">Error: Failed to connect to server.</Alert>\n  </div>\n</Story>",
+      "fileName": "info-alert-message-5a7406a6.stories.svelte"
+    }
+  ],
+  "currentVersionId": "6afcaeb0f4eebcea"
+}

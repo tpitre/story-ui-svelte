@@ -1,0 +1,14 @@
+{
+  "storyId": "flowbite-button-component-919f0433.stories.svelte",
+  "title": "Flowbite Button Component 919f0433.Stories.Svelte",
+  "versions": [
+    {
+      "id": "59a0a64b66f6fb53",
+      "timestamp": 1765747850359,
+      "prompt": "Create a simple Flowbite button component",
+      "code": "<script module>\n  import { defineMeta } from '@storybook/addon-svelte-csf';\n  import { Button } from 'flowbite-svelte';\n\n  const { Story } = defineMeta({\n    title: 'Generated/Button',\n    component: Button,\n    tags: ['autodocs'],\n  });\n</script>\n\n<Story name=\"Default\" asChild>\n  <Button>Default Button</Button>\n</Story>\n\n<Story name=\"Colors\" asChild>\n  <div class=\"flex gap-2 flex-wrap\">\n    <Button color=\"primary\">Primary</Button>\n    <Button color=\"blue\">Blue</Button>\n    <Button color=\"green\">Green</Button>\n    <Button color=\"red\">Red</Button>\n    <Button color=\"yellow\">Yellow</Button>\n    <Button color=\"purple\">Purple</Button>\n  </div>\n</Story>\n\n<Story name=\"Sizes\" asChild>\n  <div class=\"flex gap-2 items-center flex-wrap\">\n    <Button size=\"xs\">Extra Small</Button>\n    <Button size=\"sm\">Small</Button>\n    <Button size=\"md\">Medium</Button>\n    <Button size=\"lg\">Large</Button>\n    <Button size=\"xl\">Extra Large</Button>\n  </div>\n</Story>\n\n<Story name=\"Outline\" asChild>\n  <div class=\"flex gap-2 flex-wrap\">\n    <Button outline color=\"primary\">Primary</Button>\n    <Button outline color=\"blue\">Blue</Button>\n    <Button outline color=\"green\">Green</Button>\n    <Button outline color=\"red\">Red</Button>\n  </div>\n</Story>\n\n<Story name=\"Disabled\" asChild>\n  <div class=\"flex gap-2 flex-wrap\">\n    <Button disabled>Disabled Button</Button>\n    <Button color=\"blue\" disabled>Disabled Blue</Button>\n  </div>\n</Story>\n\n<Story name=\"Pill\" asChild>\n  <div class=\"flex gap-2 flex-wrap\">\n    <Button pill color=\"primary\">Pill Button</Button>\n    <Button pill color=\"blue\">Blue Pill</Button>\n    <Button pill color=\"green\">Green Pill</Button>\n  </div>\n</Story>",
+      "fileName": "flowbite-button-component-919f0433.stories.svelte"
+    }
+  ],
+  "currentVersionId": "59a0a64b66f6fb53"
+}

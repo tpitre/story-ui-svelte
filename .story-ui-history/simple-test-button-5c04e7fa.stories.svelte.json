@@ -1,0 +1,14 @@
+{
+  "storyId": "simple-test-button-5c04e7fa.stories.svelte",
+  "title": "Simple Test Button 5c04e7fa.Stories.Svelte",
+  "versions": [
+    {
+      "id": "10a71eae70b07adc",
+      "timestamp": 1765724535321,
+      "prompt": "Create a simple test button",
+      "code": "<script module>\n  import { defineMeta } from '@storybook/addon-svelte-csf';\n  import { Button } from 'flowbite-svelte';\n\n  const { Story } = defineMeta({\n    title: 'Generated/TestButton',\n    component: Button,\n    tags: ['autodocs'],\n  });\n</script>\n\n<Story name=\"Default\">\n  <Button>Test Button</Button>\n</Story>\n\n<Story name=\"Primary\">\n  <Button color=\"primary\">Primary Test Button</Button>\n</Story>\n\n<Story name=\"Colors\">\n  <div class=\"flex gap-2 flex-wrap\">\n    <Button color=\"blue\">Blue</Button>\n    <Button color=\"green\">Green</Button>\n    <Button color=\"red\">Red</Button>\n    <Button color=\"yellow\">Yellow</Button>\n    <Button color=\"purple\">Purple</Button>\n  </div>\n</Story>\n\n<Story name=\"Sizes\">\n  <div class=\"flex gap-2 items-center flex-wrap\">\n    <Button size=\"xs\">Extra Small</Button>\n    <Button size=\"sm\">Small</Button>\n    <Button size=\"md\">Medium</Button>\n    <Button size=\"lg\">Large</Button>\n    <Button size=\"xl\">Extra Large</Button>\n  </div>\n</Story>\n\n<Story name=\"Disabled\">\n  <Button disabled>Disabled Button</Button>\n</Story>\n\n<Story name=\"Outline\">\n  <div class=\"flex gap-2 flex-wrap\">\n    <Button outline color=\"blue\">Outline Blue</Button>\n    <Button outline color=\"green\">Outline Green</Button>\n    <Button outline color=\"red\">Outline Red</Button>\n  </div>\n</Story>",
+      "fileName": "simple-test-button-5c04e7fa.stories.svelte"
+    }
+  ],
+  "currentVersionId": "10a71eae70b07adc"
+}

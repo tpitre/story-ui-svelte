@@ -1,0 +1,14 @@
+{
+  "storyId": "simple-info-alert-2dfbbdd8.stories.svelte",
+  "title": "Simple Info Alert 2dfbbdd8.Stories.Svelte",
+  "versions": [
+    {
+      "id": "0305f5349c168898",
+      "timestamp": 1765722054272,
+      "prompt": "Create a simple info alert",
+      "code": "svelte\n<script module>\n  import { defineMeta } from '@storybook/addon-svelte-csf';\n  import { Alert } from 'flowbite-svelte';\n\n  const { Story } = defineMeta({\n    title: 'Generated/Alert',\n    component: Alert,\n    tags: ['autodocs'],\n  });\n</script>\n\n<Story name=\"Info\">\n  <Alert color=\"blue\">This is an informational alert message.</Alert>\n</Story>\n\n<Story name=\"Success\">\n  <Alert color=\"green\">Operation completed successfully!</Alert>\n</Story>\n\n<Story name=\"Warning\">\n  <Alert color=\"yellow\">Please review this warning before proceeding.</Alert>\n</Story>\n\n<Story name=\"Error\">\n  <Alert color=\"red\">An error occurred. Please try again.</Alert>\n</Story>\n\n<Story name=\"Default\">\n  <Alert>This is a default alert without a specific color.</Alert>\n</Story>\n\n<Story name=\"All Types\">\n  <div class=\"space-y-4\">\n    <Alert color=\"blue\">Informational alert</Alert>\n    <Alert color=\"green\">Success alert</Alert>\n    <Alert color=\"yellow\">Warning alert</Alert>\n    <Alert color=\"red\">Error alert</Alert>\n    <Alert>Default alert</Alert>\n  </div>\n</Story>",
+      "fileName": "simple-info-alert-2dfbbdd8.stories.svelte"
+    }
+  ],
+  "currentVersionId": "0305f5349c168898"
+}

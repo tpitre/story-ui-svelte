@@ -1,12 +1,12 @@
 [
   {
     "title": "Primary Button",
-    "fileName": "primary-button-d41d593c.stories.ts",
-    "storyId": "story-d41d593c",
-    "hash": "d41d593c",
+    "fileName": "primary-button-5a7f9851.stories.svelte",
+    "storyId": "story-5a7f9851",
+    "hash": "5a7f9851",
     "createdAt": "2025-12-02T19:40:15.647Z",
-    "updatedAt": "2025-12-13T23:36:15.035Z",
-    "prompt": "Make the button larger and add an icon"
+    "updatedAt": "2025-12-14T14:49:08.571Z",
+    "prompt": "Create a simple primary button"
   },
   {
     "title": "Product Card with Title and Price",
@@ -133,5 +133,86 @@
     "createdAt": "2025-12-14T03:23:19.322Z",
     "updatedAt": "2025-12-14T03:23:19.322Z",
     "prompt": "Create a button for delete test svelte"
+  },
+  {
+    "title": "Simple Info Alert",
+    "fileName": "simple-info-alert-2dfbbdd8.stories.svelte",
+    "storyId": "story-2dfbbdd8",
+    "hash": "2dfbbdd8",
+    "createdAt": "2025-12-14T14:20:54.270Z",
+    "updatedAt": "2025-12-14T14:20:54.270Z",
+    "prompt": "Create a simple info alert"
+  },
+  {
+    "title": "Info Alert Message",
+    "fileName": "info-alert-message-5a7406a6.stories.svelte",
+    "storyId": "story-5a7406a6",
+    "hash": "5a7406a6",
+    "createdAt": "2025-12-14T14:52:41.578Z",
+    "updatedAt": "2025-12-14T14:52:41.578Z",
+    "prompt": "Create a simple alert with an info message"
+  },
+  {
+    "title": "Badge Component - Status Variants",
+    "fileName": "badge-component-status-variants-944a97ab.stories.svelte",
+    "storyId": "story-944a97ab",
+    "hash": "944a97ab",
+    "createdAt": "2025-12-14T14:56:11.286Z",
+    "updatedAt": "2025-12-14T14:56:11.286Z",
+    "prompt": "Create a badge component showing different statuses"
+  },
+  {
+    "title": "Card with Image and Action Button",
+    "fileName": "card-with-image-and-action-button-3b90d5c7.stories.svelte",
+    "storyId": "story-3b90d5c7",
+    "hash": "3b90d5c7",
+    "createdAt": "2025-12-14T14:57:20.534Z",
+    "updatedAt": "2025-12-14T14:57:20.534Z",
+    "prompt": "Create a card with an image, title, description and action button"
+  },
+  {
+    "title": "Login Form - Email and Password",
+    "fileName": "login-form-email-and-password-c09a7bf9.stories.svelte",
+    "storyId": "story-c09a7bf9",
+    "hash": "c09a7bf9",
+    "createdAt": "2025-12-14T14:57:49.286Z",
+    "updatedAt": "2025-12-14T14:57:49.286Z",
+    "prompt": "Create a simple login form with email and password fields"
+  },
+  {
+    "title": "Simple Test Button",
+    "fileName": "simple-test-button-5c04e7fa.stories.svelte",
+    "storyId": "story-5c04e7fa",
+    "hash": "5c04e7fa",
+    "createdAt": "2025-12-14T15:02:15.321Z",
+    "updatedAt": "2025-12-14T15:02:15.321Z",
+    "prompt": "Create a simple test button"
+  },
+  {
+    "title": "Flowbite Button Component",
+    "fileName": "flowbite-button-component-919f0433.stories.svelte",
+    "storyId": "story-919f0433",
+    "hash": "919f0433",
+    "createdAt": "2025-12-14T21:30:50.358Z",
+    "updatedAt": "2025-12-14T21:30:50.358Z",
+    "prompt": "Create a simple Flowbite button component"
+  },
+  {
+    "title": "Simple Badge",
+    "fileName": "simple-badge-92f7727a.stories.svelte",
+    "storyId": "story-92f7727a",
+    "hash": "92f7727a",
+    "createdAt": "2025-12-14T23:21:19.916Z",
+    "updatedAt": "2025-12-14T23:21:19.916Z",
+    "prompt": "A simple badge"
+  },
+  {
+    "title": "Tooltip",
+    "fileName": "tooltip-4cbe79c1.stories.svelte",
+    "storyId": "story-4cbe79c1",
+    "hash": "4cbe79c1",
+    "createdAt": "2025-12-14T23:46:28.716Z",
+    "updatedAt": "2025-12-14T23:46:28.716Z",
+    "prompt": "A tooltip"
   }
 ]

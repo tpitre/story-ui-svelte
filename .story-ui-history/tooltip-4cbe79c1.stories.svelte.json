@@ -1,0 +1,14 @@
+{
+  "storyId": "tooltip-4cbe79c1.stories.svelte",
+  "title": "Tooltip 4cbe79c1.Stories.Svelte",
+  "versions": [
+    {
+      "id": "81ea4e97f7a180b9",
+      "timestamp": 1765755988716,
+      "prompt": "A tooltip",
+      "code": "<script module>\n  import { defineMeta } from '@storybook/addon-svelte-csf';\n  import { Tooltip, Button } from 'flowbite-svelte';\n\n  const { Story } = defineMeta({\n    title: 'Generated/Tooltip',\n  id: 'tooltip-4cbe79c1',\n    component: Tooltip,\n    tags: ['autodocs'],\n  });\n</script>\n\n<Story name=\"Default\" asChild>\n  <div class=\"flex justify-center p-8\">\n    <Button>Hover me</Button>\n    <Tooltip>This is a tooltip</Tooltip>\n  </div>\n</Story>\n\n<Story name=\"Top\" asChild>\n  <div class=\"flex justify-center p-8\">\n    <Button>Top tooltip</Button>\n    <Tooltip placement=\"top\">Tooltip on top</Tooltip>\n  </div>\n</Story>\n\n<Story name=\"Right\" asChild>\n  <div class=\"flex justify-center p-8\">\n    <Button>Right tooltip</Button>\n    <Tooltip placement=\"right\">Tooltip on right</Tooltip>\n  </div>\n</Story>\n\n<Story name=\"Bottom\" asChild>\n  <div class=\"flex justify-center p-8\">\n    <Button>Bottom tooltip</Button>\n    <Tooltip placement=\"bottom\">Tooltip on bottom</Tooltip>\n  </div>\n</Story>\n\n<Story name=\"Left\" asChild>\n  <div class=\"flex justify-center p-8\">\n    <Button>Left tooltip</Button>\n    <Tooltip placement=\"left\">Tooltip on left</Tooltip>\n  </div>\n</Story>\n\n<Story name=\"Multiple Colors\" asChild>\n  <div class=\"flex gap-4 justify-center p-8 flex-wrap\">\n    <div>\n      <Button color=\"blue\">Blue</Button>\n      <Tooltip color=\"blue\">Blue tooltip</Tooltip>\n    </div>\n    <div>\n      <Button color=\"green\">Green</Button>\n      <Tooltip color=\"green\">Green tooltip</Tooltip>\n    </div>\n    <div>\n      <Button color=\"red\">Red</Button>\n      <Tooltip color=\"red\">Red tooltip</Tooltip>\n    </div>\n    <div>\n      <Button color=\"purple\">Purple</Button>\n      <Tooltip color=\"purple\">Purple tooltip</Tooltip>\n    </div>\n  </div>\n</Story>\n\n<Story name=\"With Content\" asChild>\n  <div class=\"flex justify-center p-8\">\n    <Button>Info</Button>\n    <Tooltip>\n      <div class=\"space-y-2\">\n        <p class=\"font-semibold\">Tooltip Title</p>\n        <p class=\"text-sm\">This tooltip contains more detailed information with multiple lines of text.</p>\n      </div>\n    </Tooltip>\n  </div>\n</Story>",
+      "fileName": "tooltip-4cbe79c1.stories.svelte"
+    }
+  ],
+  "currentVersionId": "81ea4e97f7a180b9"
+}

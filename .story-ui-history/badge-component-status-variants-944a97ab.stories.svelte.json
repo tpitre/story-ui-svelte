@@ -1,0 +1,14 @@
+{
+  "storyId": "badge-component-status-variants-944a97ab.stories.svelte",
+  "title": "Badge Component Status Variants 944a97ab.Stories.Svelte",
+  "versions": [
+    {
+      "id": "2cb6ade7af54d7a9",
+      "timestamp": 1765724171287,
+      "prompt": "Create a badge component showing different statuses",
+      "code": "<script module>\n  import { defineMeta } from '@storybook/addon-svelte-csf';\n  import { Badge } from 'flowbite-svelte';\n\n  const { Story } = defineMeta({\n    title: 'Generated/Badge',\n    component: Badge,\n    tags: ['autodocs'],\n  });\n</script>\n\n<Story name=\"Default\">\n  <Badge>Default</Badge>\n</Story>\n\n<Story name=\"Status Colors\">\n  <div class=\"flex gap-2 flex-wrap\">\n    <Badge color=\"blue\">Info</Badge>\n    <Badge color=\"green\">Success</Badge>\n    <Badge color=\"yellow\">Warning</Badge>\n    <Badge color=\"red\">Error</Badge>\n    <Badge color=\"indigo\">New</Badge>\n    <Badge color=\"purple\">Premium</Badge>\n  </div>\n</Story>\n\n<Story name=\"Sizes\">\n  <div class=\"flex gap-2 items-center flex-wrap\">\n    <Badge size=\"xs\">Extra Small</Badge>\n    <Badge size=\"sm\">Small</Badge>\n    <Badge>Default</Badge>\n    <Badge size=\"lg\">Large</Badge>\n  </div>\n</Story>\n\n<Story name=\"Rounded\">\n  <div class=\"flex gap-2 flex-wrap\">\n    <Badge rounded color=\"blue\">Rounded Info</Badge>\n    <Badge rounded color=\"green\">Rounded Success</Badge>\n    <Badge rounded color=\"yellow\">Rounded Warning</Badge>\n    <Badge rounded color=\"red\">Rounded Error</Badge>\n  </div>\n</Story>\n\n<Story name=\"Status Indicators\">\n  <div class=\"flex gap-2 flex-wrap\">\n    <Badge color=\"green\">Active</Badge>\n    <Badge color=\"yellow\">Pending</Badge>\n    <Badge color=\"red\">Inactive</Badge>\n    <Badge color=\"blue\">Draft</Badge>\n    <Badge color=\"purple\">Archived</Badge>\n    <Badge color=\"indigo\">Published</Badge>\n  </div>\n</Story>\n\n<Story name=\"Large Badges\">\n  <div class=\"flex gap-2 flex-wrap\">\n    <Badge large color=\"blue\">Processing</Badge>\n    <Badge large color=\"green\">Completed</Badge>\n    <Badge large color=\"yellow\">On Hold</Badge>\n    <Badge large color=\"red\">Cancelled</Badge>\n  </div>\n</Story>\n\n<Story name=\"Border Style\">\n  <div class=\"flex gap-2 flex-wrap\">\n    <Badge border color=\"blue\">Info</Badge>\n    <Badge border color=\"green\">Success</Badge>\n    <Badge border color=\"yellow\">Warning</Badge>\n    <Badge border color=\"red\">Error</Badge>\n  </div>\n</Story>",
+      "fileName": "badge-component-status-variants-944a97ab.stories.svelte"
+    }
+  ],
+  "currentVersionId": "2cb6ade7af54d7a9"
+}

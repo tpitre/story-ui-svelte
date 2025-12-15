@@ -1,0 +1,14 @@
+{
+  "storyId": "primary-button-5a7f9851.stories.svelte",
+  "title": "Primary Button 5a7f9851.Stories.Svelte",
+  "versions": [
+    {
+      "id": "e1d0a1e15e940ce3",
+      "timestamp": 1765723748572,
+      "prompt": "Create a simple primary button",
+      "code": "<script module>\n  import { defineMeta } from '@storybook/addon-svelte-csf';\n  import { Button } from 'flowbite-svelte';\n\n  const { Story } = defineMeta({\n    title: 'Generated/Button',\n    component: Button,\n    tags: ['autodocs'],\n  });\n</script>\n\n<Story name=\"Primary\">\n  <Button color=\"primary\">Primary Button</Button>\n</Story>\n\n<Story name=\"Colors\">\n  <div class=\"flex gap-2 flex-wrap\">\n    <Button color=\"primary\">Primary</Button>\n    <Button color=\"blue\">Blue</Button>\n    <Button color=\"green\">Green</Button>\n    <Button color=\"red\">Red</Button>\n    <Button color=\"yellow\">Yellow</Button>\n    <Button color=\"purple\">Purple</Button>\n  </div>\n</Story>\n\n<Story name=\"Sizes\">\n  <div class=\"flex gap-2 items-center flex-wrap\">\n    <Button color=\"primary\" size=\"xs\">Extra Small</Button>\n    <Button color=\"primary\" size=\"sm\">Small</Button>\n    <Button color=\"primary\" size=\"md\">Medium</Button>\n    <Button color=\"primary\" size=\"lg\">Large</Button>\n    <Button color=\"primary\" size=\"xl\">Extra Large</Button>\n  </div>\n</Story>\n\n<Story name=\"Disabled\">\n  <Button color=\"primary\" disabled>Disabled Button</Button>\n</Story>",
+      "fileName": "primary-button-5a7f9851.stories.svelte"
+    }
+  ],
+  "currentVersionId": "e1d0a1e15e940ce3"
+}
